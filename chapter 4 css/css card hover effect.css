@@ -1,0 +1,27 @@
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+    transition: 90ms;
+}
+#one{
+    min-width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 4px 16px 20px black;
+}
+#prof:hover{
+    text-shadow: 2px 2px 2px black;
+}
+#name:hover{
+    text-shadow: 2px 2px 2px black;
+}
